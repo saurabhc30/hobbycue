@@ -1,38 +1,262 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+.App{
+  font-family: 'Poppins';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  width: 20%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-icon{
+  background-color: #8064A2;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 0 0.5rem 0.5rem 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.search-box{
+  font-size: 0.8rem;
+  color: #939CA3;
+  border-radius: 0.5rem 0 0 0.5rem;
+  font-weight: 100;
+}
+
+.bell-icon2{
+  display: none;
+}
+
+.nav-icon{
+  color: #8064A2;
+}
+
+.search-bar{
+  display: block;
+}
+
+
+.search-icon{
+  position: absolute;
+}
+
+.mob-search{
+  display: none;
+}
+
+.login-btn{
+  color: #8064A2;
+  font-size: 1rem;
+  font-style: bold;
+  border: 1px solid #8064A2;
+}
+
+.login-tittle{
+  font-weight: 600;
+}
+
+.hobby{
+  font-weight: 600;
+  color: #0096C8;
+}
+
+.passion{
+  font-weight: 600;
+  color: #8064A2;
+}
+
+.login-para{
+  font-weight: 500;
+  line-height: 1rem;
+  font-size: 0.8rem;
+}
+
+.btn-google{
+  position: relative;
+}
+
+.google{
+  position: absolute;
+  padding: 0.8rem;
+}
+
+.sign-btn:hover, .join-btn:hover{
+  background-color: #8064A2;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.sign-btn{
+  color: #8064A2;
+  border-radius: 0;
+  border-bottom: 3px solid #8064A2;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.join-btn{
+  color: #939CA3;
+  border-radius: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.signupwith{
+  color: black;
+  font-weight: 600;
+  border: 2px solid #8064A2;
+}
+
+.signupwith:hover, .btn-continue:hover{
+  background-color: #8064A2;
+}
+
+.form-control{
+  padding: 0.8rem;
+  color: #939CA3;
+  font-size: 0.8rem;
+}
+
+.form-check-input{
+  border: 1px solid #8064A2;
+}
+
+.btn-continue{
+  border: 2px solid black;
+  font-weight: 600;
+  color: black;
+}
+
+.bi-people-fill{
+  color: #8064A2;
+}
+
+.bi-geo-alt-fill{
+  color: #77933C;
+}
+
+.bi-basket3-fill{
+  color: #C0504D;
+}
+
+.bi-calendar2-check-fill{
+  color: #0096C8;
+}
+
+.bi-plus-circle-fill{
+  color: #0096C8;
+}
+
+.bi-quote{
+  color: #8064A2;
+}
+
+.card-title{
+  color: black;
+  font-weight: 600;
+}
+
+.card-para{
+  font-weight: 300;
+  color: black;
+  line-height: 1.5rem;
+}
+
+.card-btn{
+  width: 25%;
+  border: 2px solid #8064A2;
+  color: #8064A2;
+}
+
+
+.quotes{
+  display: flex;
+}
+
+.audioTrack{
+  width: 75%;
+}
+
+.author-div{
+  display: flex;
+}
+
+.bio{
+  color: #0096C8;
+}
+
+.name{
+  color: #8064A2;
+  font-weight: 600;
+}
+
+.btn-started{
+  background-color: #8064A2;
+  color: white;
+  font-weight: 600;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+}
+
+
+.footer-searchBox{
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.btn-invite{
+  padding: 0.8rem;
+  background-color: #8064A2;
+  color: white;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+@media (max-width: 720px) {
+
+  .logo{
+    width: 40%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .search-bar{
+    display: none;
   }
+
+  .mob-search{
+    display: block;
+    color: #8064A2;
+    font-weight: 600;
+  }
+
+  .bell-icon{
+    display: none;
+  }
+
+  .bell-icon2{
+    display: block;
+  }
+  
+  .signup-form{
+    padding-top: 3rem;
+  }
+
+  .signupwith{
+    font-size: 1rem;
+  }
+
+  .card-btn{
+    width: 100%;
+  }
+
+  .quotes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .audioTrack{
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .login-tittle{
+    font-size: 1.2rem;
+  }
+
 }
