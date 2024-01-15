@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/hobbycue/static/css/main.0db9b27f.css",
+    "main.js": "/hobbycue/static/js/main.79ed51cb.js",
+    "static/js/787.64a7859f.chunk.js": "/hobbycue/static/js/787.64a7859f.chunk.js",
+    "static/media/svg1.png": "/hobbycue/static/media/svg1.112692828397a0b763ab.png",
+    "static/media/svg2.png": "/hobbycue/static/media/svg2.63987d2c2e0a4bd48f63.png",
+    "static/media/author.jpg": "/hobbycue/static/media/author.090f39a3e6f84eb31c9f.jpg",
+    "static/media/Audio.png": "/hobbycue/static/media/Audio.b10c8bff0c112cef0cfd.png",
+    "index.html": "/hobbycue/index.html",
+    "main.0db9b27f.css.map": "/hobbycue/static/css/main.0db9b27f.css.map",
+    "main.79ed51cb.js.map": "/hobbycue/static/js/main.79ed51cb.js.map",
+    "787.64a7859f.chunk.js.map": "/hobbycue/static/js/787.64a7859f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0db9b27f.css",
+    "static/js/main.79ed51cb.js"
+  ]
+}
